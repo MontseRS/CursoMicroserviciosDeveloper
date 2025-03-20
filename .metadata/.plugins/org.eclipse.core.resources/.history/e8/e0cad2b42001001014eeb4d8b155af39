@@ -1,0 +1,21 @@
+package com.proa.app.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+public class MicroController {
+
+	@RestController
+	@RequestMapping("/order") // http://localhost:port/order
+	
+	public class MicroController
+	{
+		@Autowired
+		private IService service;
+		
+		public ResponseEntity<String> insert(){
+			
+			return null;
+			
+		}
+	}
+}
